@@ -1,0 +1,10 @@
+.adverts {
+    display: flex;
+    margin: .3rem .5rem;
+}
+
+.ads {
+    width: 100vw;
+    margin: 0;
+    height: 12rem;
+}

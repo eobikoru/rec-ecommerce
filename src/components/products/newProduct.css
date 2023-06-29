@@ -1,0 +1,152 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    min-width: 100px;
+    margin: .3rem 2.5rem;
+    width: 65%;
+    z-index: 1;
+}
+
+.product__info {
+    background: var(--white-color);
+    box-shadow: 2px 2px 3px var(--dark-white);
+    padding: 1rem;
+}
+
+.product__price {
+    margin-top: -1.3rem;
+}
+
+.product__rating {
+    display: flex;
+    color: var(--gold-color);
+    font-size: var(--font-one-and-half);
+    margin-top: -3rem;
+}
+
+.product__title {
+    font-size: var(--font-one-point-two);
+    font-weight: var(--font-bold);
+}
+
+.product__item__details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.product__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hearts {
+    color: grey;
+}
+
+.heart {
+    color: red;
+    -webkit-animation: heartbeat 1.5s ease-in-out 1;
+    animation: heartbeat 1.5s ease-in-out 1;
+
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        font-size: 1.7rem;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        font-size: 1.5rem;
+
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        font-size: 1.7rem;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        font-size: 1.5rem;
+    }
+}
+
+
+.product>img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product>button {
+    background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #B46a29;
+}

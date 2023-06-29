@@ -1,0 +1,35 @@
+.item__div {
+    background-color: var(--dark-white);
+}
+
+.item {
+    width: 220px;
+    padding: 1rem;
+    margin: .5rem;
+    transition: .4s ease all;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+div .item img {
+    width: 13rem;
+    border-radius: .3rem;
+    box-shadow: 1px 1px 2px grey;
+    transition: .4s ease all;
+}
+
+div .item img:hover {
+    transform: scale(1.1);
+}
+
+.items__box {
+    display: flex;
+}
+
+.item__grid {
+    display: grid;
+    grid-template-columns: 20% 59% 21%;
+    
+}

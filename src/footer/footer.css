@@ -1,0 +1,20 @@
+.foot__icons, .foot__icons .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    height: 2.5rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: var(--font-one-point-two);
+    text-align: center;
+}
+
+.foot__icons {
+    margin: 0 .2rem .5rem;
+}
+
+.icons__div {
+    margin-left: 1rem;
+    padding: 0;
+}

@@ -1,0 +1,26 @@
+.banner__comp {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: var(--light-black);
+    height: 12.5rem;
+    padding: 0;
+}
+
+.banner__comps {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: var(--light-black);
+    height: 12.5rem;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.banner__comp span,
+.banner__comps span {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px var(--black-color);
+    align-self: center;
+    margin: 1rem auto;
+    height: 12rem;
+}

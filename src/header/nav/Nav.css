@@ -1,0 +1,135 @@
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+    background: linear-gradient(to left, var(--gold-color), var(--light-black));
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 500ms;
+    width: 100%;
+
+}
+.header__navs {
+    background: linear-gradient(to left, var(--gold-color), var(--light-black));
+    
+}
+div .header__head h1 {
+    text-align: center;
+    padding: 0 5px;
+    color: var(--white-color);
+}
+
+div .header__head h1 .head__span__one {
+    color: red;
+}
+
+div .header__head h1 .head__span__two {
+    color: var(--lightblue-color);
+}
+
+
+div .header__list ul,
+div .header__icons ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* width: max-content; */
+    margin: 20px auto;
+
+}
+
+.header__list {
+    font-size: var(--font-one-point-two);
+}
+
+.header__icons {
+    font-size: var(--font-one-and-half);
+}
+
+div .header__list li,
+div .header__icons li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px;
+    margin: 0 30px;
+    cursor: pointer;
+    font-weight: var(--font-bold);
+    transition: all 450ms ease;
+}
+
+div .header__list li:first-child {
+    color: var(--lightblue-color);
+
+}
+
+div .header__list li a {
+    text-decoration: none;
+}
+div .header__list li:hover {
+    color: orange;
+    transform: translateY(-.4rem);
+}
+div .header__icons li:hover {
+
+    transform: scale(1.5);
+
+}
+
+/* .hearts {
+    color: black;
+}
+
+
+.heart {
+    color: red;
+} */
+
+
+
+.category__span {
+    padding: 0px 3px;
+    font-weight: var(--font-boldest);
+    font-size: var(--font-one-and-half);
+    transform: translate(3px, 5px);
+    height: 30px;
+    color: var(--black-color);
+    width: max-content;
+    /* display: none; */
+}
+
+.category__span__hide {
+    display: none;
+
+}
+
+.category__close {
+    padding: 0px 3px;
+    font-weight: var(--font-boldest);
+    font-size: var(--font-one-point-seven);
+    color: var(--black-color);
+    width: max-content;
+    margin-left: 3px;
+    display: none;
+}
+
+
+.category__hide {
+    display: none;
+}
+
+
+/* .category__close__show {
+    display: block;
+} */
+
+.category__show {
+    position: absolute;
+    top: 50px;
+    left: 37%;
+    display: block;
+}

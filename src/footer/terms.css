@@ -1,0 +1,8 @@
+.terms {
+    background-color: var(--white-color);
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: .6rem;
+    border: 1px solid;
+}
+
